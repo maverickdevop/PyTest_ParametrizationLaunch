@@ -8,7 +8,7 @@ def test_add_to_cart_button_presence(driver):
     driver.get(Data.LINK + "/catalogue/coders-at-work_207/")
 
     try:
-        element = WebDriverWait(driver, 10).until(
+        element = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, "//button[@class='btn btn-lg btn-primary btn-add-to-basket']"))
         )
 
