@@ -1,7 +1,6 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from configuration import Data
 
 
 def pytest_addoption(parser):
