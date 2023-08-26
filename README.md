@@ -1,6 +1,7 @@
 # PyTest_ParametrizationLaunch
 Задание: https://stepik.org/lesson/237240/step/10?unit=209628
 
+
 Файл конфигурации conftest.py содержит в себе опцию --language для выбора любого из доступных языков, по дефолту выбран en default='en'
 Прописывать дополнительный парааметр для запуска браузера не стал
 
@@ -8,6 +9,8 @@
 
 Для запуска тестов установите все из файла requirement.txt
 pip install -r requirement.txt
+
+В файле configuration.py есть класс Data, хранящий в себе переменную ссылки
 
 Для запуска теста выберите параметр --language=ru/en/es и т.д
 
