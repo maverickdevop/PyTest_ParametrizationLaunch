@@ -1,5 +1,6 @@
 # PyTest_ParametrizationLaunch
 Задание: https://stepik.org/lesson/237240/step/10?unit=209628
+ВНИМАНИЕ!! time.sleep в тестах очень плохая практика, поэтому хардкод в 30 секунд я заменил EC
 
 
 Файл конфигурации conftest.py содержит в себе опцию --language для выбора любого из доступных языков, по дефолту выбран en default='en'
