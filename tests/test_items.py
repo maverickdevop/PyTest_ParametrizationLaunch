@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from configuration import Data
 
-def test_add_to_cart_button_presence(driver):
+def test_button_and_text_button_presence(driver):
 
     driver.get(Data.LINK + "/catalogue/coders-at-work_207/")
 
